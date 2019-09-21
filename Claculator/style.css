@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;   
+   }
+   body{
+    background: linear-gradient(to right,red,blue );
+    height: 100%;
+}
+   form{
+       border : 1px solid white;
+       padding: 5px 40px 5px 40px;
+       border-radius: 10px;
+   }
+   h2{
+       color: white;
+       font-family: comic sans ms;
+       text-align: center;
+       font-size: 25px;
+   }
+   .button{
+       width: 60;
+       height: 60;
+       font-size: 25;
+       margin: 2;
+       cursor: pointer;
+       background: black;
+       border: 1px solid black;
+       border-radius: 10px;
+       color: white;
+   }
+   .textview{
+       width: 324;
+       margin: 5;
+       font-size: 25;
+       padding: 8;
+       border: 1px solid white;
+       border-radius: 10px;
+       color: black;
+   }
+   
+   .main{
+       position:  absolute;
+       top: 50%;
+       left: 50%;
+       transform: translateX(-50%) translateY(-50%);
+   }
